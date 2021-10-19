@@ -39,12 +39,12 @@
 			        <th>
 			        	Phone
 			        </th>
-			        <th>
-			        	Address
-			        </th>
 			        {{-- <th>
-			        	Actions
+			        	Address
 			        </th> --}}
+			        <th>
+			        	Actions
+			        </th>
 			      </thead>
 			      <tbody>
 			      	@foreach ($clients as $key => $value)
