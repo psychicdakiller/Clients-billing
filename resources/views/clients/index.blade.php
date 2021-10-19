@@ -53,7 +53,7 @@
 			          <td class="align-text-top"><img src="{{ Storage::url($value->photo) }}" width="100" height="100" /></td>
 
 			          <td class="align-text-top">{{$value->name}}</td>
-			          <td style="white-space: pre-line">{{$value->email}}</td>
+			          <td class="align-text-top">{{$value->email}}</td>
 			          <td class="align-text-top">{{$value->phone}}</td>
 			          {{-- <td class="align-text-top">{{$value->address}}</td> --}}
 			          	<td class="align-text-top">
